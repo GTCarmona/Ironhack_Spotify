@@ -178,6 +178,10 @@ ul {
 CSS Part 2
 -----------------------------
 ```
+<section class="big-section">
+```
+
+```
 .big-section {
   display: flex;
   justify-content: center;
