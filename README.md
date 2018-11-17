@@ -15,7 +15,8 @@ Drink and Code
 
 HTML Part 1
 -----------------------------
-`<!doctype html>
+```
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -24,7 +25,8 @@ HTML Part 1
   <body>
     Hello there!!!
   </body>
-</html>`
+</html>
+```
 
 
 HTML Part 2
