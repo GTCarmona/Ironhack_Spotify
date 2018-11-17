@@ -125,6 +125,10 @@ HTML Part 3
 CSS Part 1
 -----------------------------
 ```
+<link rel="stylesheet" href="./css/style.css" />
+```
+
+```
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
