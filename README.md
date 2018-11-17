@@ -173,6 +173,29 @@ ul {
   
 CSS Part 2
 -----------------------------
+```
+.big-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 768px;
+  color: white;
+}
+
+.big-section h1 {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.big-section p {
+  font-size: 30px;
+}
+```
 
 
 CSS Part 3
