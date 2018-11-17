@@ -124,6 +124,51 @@ HTML Part 3
 
 CSS Part 1
 -----------------------------
+```
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 25px;
+}
+
+header img {
+  height: 75%;
+}
+
+header a {
+  margin-left: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+
+h2 {
+  font-size: 35px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+
+h3 {
+  font-size: 30px;
+}
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+```
 
   
 CSS Part 2
