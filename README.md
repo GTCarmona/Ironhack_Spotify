@@ -209,6 +209,10 @@ CSS Part 2
 CSS Part 3
 -----------------------------
 ```
+<footer class="features">
+```
+
+```
 .features {
   text-align: center;
 }
