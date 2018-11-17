@@ -208,3 +208,37 @@ CSS Part 2
 
 CSS Part 3
 -----------------------------
+```
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  text-decoration-color: #00c76f;
+}
+
+.features h3 {
+  margin-top: 0;
+  color: #00c76f;
+}
+
+.features ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.features li {
+  width: 20%;
+}
+
+.features p {
+  font-size: 25px;
+}
+
+.features img {
+  width: 50%;
+}
+
+```
