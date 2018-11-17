@@ -15,7 +15,16 @@ Drink and Code
 
 HTML Part 1
 -----------------------------
-
+`<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    Hello there!!!
+  </body>
+</html>
 
 
 HTML Part 2
