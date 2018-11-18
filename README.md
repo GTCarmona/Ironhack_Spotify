@@ -137,6 +137,7 @@ body {
 
 header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 100px;
@@ -184,6 +185,7 @@ CSS Part 2
 ```
 .big-section {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -228,6 +230,7 @@ CSS Part 3
 
 .features ul {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin-top: 7%;
   margin-bottom: 7%;
