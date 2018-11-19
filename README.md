@@ -249,3 +249,16 @@ CSS Part 3
 }
 
 ```
+
+Want to learn more?
+-------------------
+
+Here are some extra resources to learn more about HTML & CSS.
+
+- [CSS-Tricks](https://css-tricks.com/) - In-depth guides on all things CSS.
+- [Flexbox playground](https://codepen.io/enxaneta/full/adLPwv) - An interactive page to learn about what all the Flexbox properties do.
+- [Flexbox Froggy](https://flexboxfroggy.com/) - A cool game to learn more about Flexbox.
+- [CSS Grid course](https://cssgrid.io/) - Free videos to learn about CSS Grid (the next generation flexbox).
+- [Bootstrap 4 Video](https://youtu.be/9cKsq14Kfsw) - A video to learn about Bootstrap, a cool tool to write less CSS.
+
+Of course, to get better you need to continue to build Websites!
