@@ -13,58 +13,7 @@ HTML & CSS
 
 
 
-HTML Part 1
------------------------------
-```
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Spotify</title>
-  </head>
-  <body>
-    Hello there!!!
-  </body>
-</html>
-```
-
-
-HTML Part 2
------------------------------
-```
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Spotify</title>
-  </head>
-  <body>
-    <header>
-      <img src="./images/spotify-logo.png" />
-      <nav>
-        <a href="#0">Premium</a>
-        <a href="#0">Discover</a>
-        <a href="#0">Help</a>
-        <a href="#0">Download</a>
-      </nav>
-    </header>
-
-    <section>
-      <div>
-        <h1>Music for everyone.</h1>
-        <p>
-          Spotify is now free on mobile, tablet an computer. <br />
-          Listen to the right music, wherever you are.
-        </p>
-      </div>
-    </section> 
-
-  </body>
-</html>
-```
-
-
-HTML Part 3
+HTML
 -----------------------------
 
 ```
@@ -73,6 +22,8 @@ HTML Part 3
   <head>
     <meta charset="utf-8" />
     <title>Spotify</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
@@ -85,18 +36,7 @@ HTML Part 3
         <a href="#0">Download</a>
       </nav>
     </header>
-
-    <section>
-      <div>
-        <h1>Music for everyone.</h1>
-        <p>
-          Spotify is now free on mobile, tablet and computer. <br />
-          Listen to the right music, wherever you are.
-        </p>
-      </div>
-    </section>
-
-    <footer>
+    <section class="features">
       <h2>What's on Spotify?</h2>
       <ul>
         <li>
@@ -117,12 +57,12 @@ HTML Part 3
           <p>Stream music on your smartphone, tablet, or computer.</p>
         </li>
       </ul>
-    </footer>
+    </section>
   </body>
 </html>
 ```
 
-CSS Part 1
+CSS
 -----------------------------
 ```
 <link rel="stylesheet" href="./css/style.css" />
@@ -130,9 +70,29 @@ CSS Part 1
 
 ```
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-weight: lighter;
   margin: 0;
+  background-color: #D3D3D3;
+}
+
+header {
+  background-color: white;
+}
+
+h2 {
+  font-size: 35px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
 }
 
 header {
@@ -156,65 +116,10 @@ header a {
   text-decoration: none;
 }
 
-
-h2 {
-  font-size: 35px;
+header a:hover {
   text-decoration: underline;
-  text-underline-position: under;
 }
 
-
-h3 {
-  font-size: 30px;
-}
-
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-```
-
-  
-CSS Part 2
------------------------------
-```
-<section class="big-section">
-```
-
-```
-.big-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url(../images/background.jpg);
-  background-size: cover;
-  background-position: bottom;
-  height: 768px;
-  color: white;
-}
-
-.big-section h1 {
-  font-size: 80px;
-  margin-top: 0;
-  margin-bottom: 40px;
-}
-
-.big-section p {
-  font-size: 30px;
-}
-```
-
-
-CSS Part 3
------------------------------
-```
-<footer class="features">
-```
-
-```
 .features {
   text-align: center;
 }
@@ -247,8 +152,8 @@ CSS Part 3
 .features img {
   width: 50%;
 }
-
 ```
+
 
 Want to learn more?
 -------------------
